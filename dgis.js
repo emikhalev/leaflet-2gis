@@ -136,7 +136,7 @@
 		// Position
 		var llCenter = this._map.getCenter(); // L.LatLng
 		var dgCenter = this._dg.getCenter();  // DG.GeoPoint
-        var dgllCenter = [dgCenter.lat, dgCenter.lon]; // L.LatLng <- DG.GeoPoint
+        	var dgllCenter = [dgCenter.lat, dgCenter.lon]; // L.LatLng <- DG.GeoPoint
 
 		var llCenterPx = this._map.project(llCenter); // L.Point
 		var dgCenterPx = this._map.project(dgllCenter); // L.Point
