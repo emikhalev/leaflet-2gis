@@ -3,8 +3,8 @@ Leaflet 2GIS plugin
 This plugin add 2GIS support to the leaflet.
 
 ## Requirements
-Leaflet 0.6 or newer
-2GIS api library (see example)
+* Leaflet 0.6 or newer
+* 2GIS api library (see example)
 
 ## Demo
 See [demo] (http://emikhalev.github.io/leaflet-2gis/)
