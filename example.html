@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Leaflet: 2GIS Example</title>
+
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+	<!--[if lte IE 8]>
+    	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+	<![endif]-->
+
+	<script src="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.js"></script>
+	<script src="dgis.js"></script>
+	<script src="http://maps.api.2gis.ru/1.0" type="text/javascript"></script>
+
+</head>
+<body>
+
+<div id="map" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+
+<script type="text/javascript">
+	var map = new L.Map("map", {
+		center: new L.LatLng(54.99014, 73.365319), 
+		zoom: 10,
+		zoomAnimation: false
+	});
+	var dgis = new L.DGis();
+	map.addLayer(dgis);
+</script>
+
+</body>
+</html>
