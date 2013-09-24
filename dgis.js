@@ -85,6 +85,7 @@
 		if (typeof this._dg == "undefined") {
 			this._dg = new DG.Map(this._container);
 			this._dg.fullscreen.disable();
+			this._dg.geoclicker.disable();
 		}
 
 		// Set map center and zoom
