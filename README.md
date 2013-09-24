@@ -7,7 +7,7 @@ Leaflet 0.6 or newer
 2GIS api library (see example)
 
 ## Demo
-See * [demo] (http://emikhalev.github.io/leaflet-2gis/)
+See [demo] (http://emikhalev.github.io/leaflet-2gis/)
 
 ## Usage
 ```javascript
