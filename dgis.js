@@ -3,7 +3,8 @@
 
 	options: {
 		attribution: '',
-		opacity: 0.99
+		opacity: 0.99,
+		enableGeoClicker: false
 	},
 
 	// Init object
@@ -85,7 +86,11 @@
 		if (typeof this._dg == "undefined") {
 			this._dg = new DG.Map(this._container);
 			this._dg.fullscreen.disable();
-			this._dg.geoclicker.disable();
+			if (this.options.enableGeoClicker) {
+				this._dg.geoclicker.enable();
+			} else {
+				this._dg.geoclicker.disable();
+			}
 		}
 
 		// Set map center and zoom
@@ -93,6 +98,10 @@
 
 		var zoom = this._map.getZoom();
 		this._dg.setZoom(zoom);
+		
+		//Firing event with map-object as its argument, for the code that uses plug-in 
+		//will be able to use the 2GIS JS API through it.
+		this.fire('MapObjectInitialized', { mapObject: this._dg });
 	},
 
 	_setCenter: function(){
