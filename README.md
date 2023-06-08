@@ -1,4 +1,6 @@
-## <a href="https://leafletjs.com"><img src="https://github.com/emikhalev/leaflet-2gis/blob/master/logos/leaflet/img.png" width="64"></a> Leaflet 2GIS <a href="https://2gis.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/2GIS_logo.svg" width="48"></a>
+## <a href="https://leafletjs.com"><img src="https://github.com/emikhalev/leaflet-2gis/blob/master/logos/leaflet/img.png" width="64"></a> Leaflet 2GIS <a href="https://2gis.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/2GIS_logo.svg" width="64"></a>
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<img src="https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=Leaflet&logoColor=white"/>
 
 This plugin add 2GIS support to the leaflet.
 
