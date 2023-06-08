@@ -1,6 +1,6 @@
 ## <a href="https://leafletjs.com"><img src="https://github.com/emikhalev/leaflet-2gis/blob/master/logos/leaflet/img.png" width="64"></a> Leaflet 2GIS <a href="https://2gis.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/2GIS_logo.svg" width="48"></a>
 
-<span style="font-size: 18px">This plugin add 2GIS support to the leaflet.</span>
+This plugin add 2GIS support to the leaflet.
 
 ## Requirements
 * Leaflet 0.6 or newer
@@ -21,4 +21,4 @@ map.addLayer(dgis);
 ```
 
 ## License
-Leaflet 2GIS is free software, and may be redistributed under the MIT-LICENSE.
+Leaflet 2GIS is free software, and may be redistributed under the <a href="https://github.com/emikhalev/leaflet-2gis/blob/master/LICENSE">MIT-LICENSE</a>.
