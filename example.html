@@ -23,7 +23,8 @@
 	var map = new L.Map("map", {
 		center: new L.LatLng(54.99014, 73.365319),
 		zoom: 10,
-		zoomAnimation: false
+		zoomAnimation: false,
+		zoomDelta: 1,
 	});
 	var dgis = new L.DGis();
 	map.addLayer(dgis);
