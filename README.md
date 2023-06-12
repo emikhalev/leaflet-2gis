@@ -11,8 +11,8 @@ This plugin adds 2GIS support to the LeafletJS.
 See [demo](http://emikhalev.github.io/leaflet-2gis/)
 
 # Examples
-See [leaflet 1.9.4 example](https://github.com/emikhalev/leaflet-2gis/blob/master/leaflet1.9.4_example.html)
-See [leaflet 0.7.3 example](https://github.com/emikhalev/leaflet-2gis/blob/master/leaflet0.7.3_example.html)
+- [Leaflet 1.9.4 example](https://github.com/emikhalev/leaflet-2gis/blob/master/leaflet1.9.4_example.html)
+- [Leaflet 0.7.3 example](https://github.com/emikhalev/leaflet-2gis/blob/master/leaflet0.7.3_example.html)
 
 ## Usage
 ```javascript
