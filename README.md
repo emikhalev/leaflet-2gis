@@ -10,13 +10,20 @@ This plugin adds 2GIS support to the LeafletJS.
 ## Demo
 See [demo](http://emikhalev.github.io/leaflet-2gis/)
 
+# Examples
+See [leaflet 1.9.4 example](https://github.com/emikhalev/leaflet-2gis/blob/master/leaflet1.9.4_example.html)
+See [leaflet 0.7.3 example](https://github.com/emikhalev/leaflet-2gis/blob/master/leaflet0.7.3_example.html)
+
 ## Usage
 ```javascript
 var map = new L.Map("map", {
-	center: new L.LatLng(54.99014, 73.365319), 
-	zoom: 10,
-	zoomAnimation: true 
+    center: new L.LatLng(54.99014, 73.365319),
+    zoom: 10,
+    zoomAnimation: false,
+    zoomDelta: 1,
+    attributionControl: false
 });
+
 var dgis = new L.DGis();
 map.addLayer(dgis);
 ```
