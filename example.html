@@ -28,8 +28,10 @@
 		center: new L.LatLng(54.99014, 73.365319),
 		zoom: 10,
 		zoomAnimation: false,
-		zoomDelta: 1,
+		zoomDelta: 0.1,
 	});
+	map.attributionControl.setPrefix("<a href='https://leafletjs.com'>Leaflet</a>")
+
 	var dgis = new L.DGis();
 	map.addLayer(dgis);
 </script>

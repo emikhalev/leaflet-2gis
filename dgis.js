@@ -1,4 +1,4 @@
-﻿L.DGis = L.Class.extend({
+﻿L.DGis = L.Layer.extend({
 	includes: L.Mixin.Events,
 
 	options: {
@@ -8,7 +8,8 @@
 	},
 
 	// Init object
-	initialize: function(options) {
+	initialize: function(name, options) {
+		this.name = name
 		L.Util.setOptions(this, options);
 	},
 
@@ -111,7 +112,6 @@
 
 	_setHandlers: function(){
 		this._map.on('viewreset', this._resetCallback, this);
-		this._limitedUpdate = L.Util.limitExecByInterval(this._move, 150, this);
 		this._map.on('move', this._move, this);
 		this._map.on('moveend', this._move, this);
 	},
