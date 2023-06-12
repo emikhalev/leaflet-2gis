@@ -5,17 +5,18 @@
 
     <title>Leaflet: 2GIS Example</title>
 
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
-    <![endif]-->
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
 
-    <script src="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.js"></script>
-    <script src="../dgis.js"></script>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+
+    <script src="dgis.js"></script>
     <script src="http://maps.api.2gis.ru/1.0" type="text/javascript"></script>
-
-    <!-- badges -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 </head>
 <body>
@@ -48,5 +49,5 @@
     map.addLayer(dgis);
 </script>
 
-</div>
+</body>
 </html>
