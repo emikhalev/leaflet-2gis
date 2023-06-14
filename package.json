@@ -1,0 +1,29 @@
+{
+  "name": "leaflet-2gis",
+  "version": "1.0.1",
+  "description": "This plugin adds 2GIS support to the LeafletJS.",
+  "main": "dgis.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emikhalev/leaflet-2gis.git"
+  },
+  "keywords": [
+    "map",
+    "leaflet",
+    "gis",
+    "2gis",
+    "2-gis",
+    "leafletjs",
+    "2gis-map",
+    "geo"
+  ],
+  "author": "Eugene Mikhalev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emikhalev/leaflet-2gis/issues"
+  },
+  "homepage": "https://github.com/emikhalev/leaflet-2gis#readme",
+  "peerDependencies": {
+    "leaflet": "^1.0.0"
+  }
+}
