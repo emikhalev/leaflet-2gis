@@ -4,7 +4,7 @@
 This plugin adds 2GIS support to the LeafletJS.
 
 ## Requirements
-* Leaflet 0.6 or newer
+* Leaflet 0.7.3 or newer
 * 2GIS api library (see example)
 
 ## Demo
